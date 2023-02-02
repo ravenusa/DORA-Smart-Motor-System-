@@ -21,4 +21,5 @@ void setup()
 
 void loop()        
 {        
- Blynk.
+  Blynk.run();    
+}  
