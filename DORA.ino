@@ -83,7 +83,6 @@ void loop() {
                      "\nLongitude: " + String(gps.location.lng(), 6);
     bot.sendMessage(CHAT_ID, message, "");
   }
-
   delay(10000);
   Blynk.run();  
 }
